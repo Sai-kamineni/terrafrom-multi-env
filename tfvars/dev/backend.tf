@@ -7,3 +7,7 @@ dynamodb_table =  "81s-locking-dev"
 #these are used in providers.tf file , for seperation we are using these here
 
 #terraform init -backend-config=dev/backend.tf    ---to initialize dev seprately
+#terraform plan -var-file="dev/dev.tfvars" -auto-approve
+#terraform apply -var-file="dev/dev.tfvars" -auto-approve
+
+
