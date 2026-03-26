@@ -13,6 +13,7 @@ resource "aws_instance" "expense" {
     )
 }
 
+
 resource "aws_security_group" "allow_ssh_terraform" {
     name        = "allow_ssh_${var.environment}" #allow_ssh is already there in my account
     description = "Allow port number 22 for SSH access"
